@@ -179,22 +179,22 @@
     var botCreatorIDs = ["3851534", "3934992", "4105209"];
 
     var basicBot = {
-        version: "1.0",
+        version: "2.2.1",
         status: false,
         name: "basicBot",
         loggedInID: null,
-        scriptLink: "https://rawgit.com",
+        scriptLink: "https://rawgit.com/GaabrieeLp/basicBot/master/basicBot.js",
         cmdLink: "http://goo.gl/7kLdkf",
-        chatLink: "https://rawgit.com",
+        chatLink: "https://rawgit.com/GaabrieeLp/basicBot/master/lang/en.json",
         chat: null,
         loadChat: loadChat,
         retrieveSettings: retrieveSettings,
         retrieveFromStorage: retrieveFromStorage,
         settings: {
-            botName: "ChatBot plugdj",
+            botName: "EDT-ChatBot",
 
             language: "english",
-            chatLink: "https://rawgit.com",
+            chatLink: "https://rawgit.com/GaabrieeLp/basicBot/master/lang/en.json",
             startupCap: 1, // 1-200
             startupVolume: 0, // 0-100
             startupEmoji: false, // true or false
@@ -238,7 +238,7 @@
             rulesLink: null,
             themeLink: null,
             fbLink: "https://www.facebook.com/EDTentertainment",
-            youtubeLink: "https://www.youtube.com",
+            youtubeLink: "https://www.youtube.com/user/EDTentertainment",
 
 
             website: null,
